@@ -8,5 +8,5 @@ class BaseModel(models.Model):
     is_delete = models.BooleanField(default=False, verbose_name='删除标记')
 
     class Meta:
-        # 说明是一个抽象模型类
+        # 说明是一个抽象模型类 
         abstract = True
